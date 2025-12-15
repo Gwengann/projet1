@@ -1,11 +1,3 @@
-/**
- * @Author: Gwengann LE CORVIC
- * @Company: ISEN Yncréa Ouest
- * @Email: gwengann.le-corvic@isen-ouest.yncrea.fr
- * @Created Date: 07Feb-2024 - 11:08:00
- * @Last Modified: 11-Apr-2024 - 10:00:00
- */
-
 let login = prompt("Enter your name :")
 if (login==null) {
     login="cir2"
