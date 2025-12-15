@@ -5,9 +5,6 @@ Ce fichier README a été généré le 2024/04/16 par Gwengann.
 Dernière mise-à-jour le : 2024/04/16.
 
 
-Adresse de contact : gwengann.le-corvic@isen-ouest.yncrea.fr
-
-
 Arborescence/plan de classement des fichiers :
 
 
