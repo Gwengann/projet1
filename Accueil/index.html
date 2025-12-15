@@ -1,0 +1,82 @@
+<!--
+ * @Author: Gwengann LE CORVIC
+ * @Company: ISEN Yncréa Ouest
+ * @Email: gwengann.le-corvic@isen-ouest.yncrea.fr
+ * @Created Date: 07-Feb-2024 - 10:40:00
+ * @Last Modified: 11-Apr-2024 - 10:00:00
+-->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="js/ajax.js" defer></script>
+  <script src="js/loading.js" defer></script>
+  <script src="js/chat.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-8">
+        <!--errors-->
+        <div id="errors" class="container alert alert-danger" role="alert">
+        </div>
+        <!--thumbnails-->
+        <h1>Photo <small>gallery</small></h1>
+        <div id="photo" class="container row">
+        </div>
+        <!--photo-->
+        <div id="photoplusgrand" class="container">
+        </div>
+        <!--comments-->
+        <div id="comments" class="container col-md-8">
+          <h3>Commentaires</h3>
+        </div>
+        <div class="container">
+          <form id="comments-add" style="display: none">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">Commentaire ></span>
+              </div>
+              <input type="text" id="comment-input" class="form-control" placeholder="commentez-donc !" autofocus
+                required>
+            </div>
+            <br>
+            <button id="comment-send" type="submit" class="btn btn-success float-end">
+              <i class="fa fa-paper-plane"></i> Envoyer
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <!-- chat -->
+        <div class="container">
+          <form id="chat-send">
+            <textarea class="form-control" rows="10" id="chat-room" disabled readonly></textarea>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">Message ></span>
+              </div>
+              <input type="text" id="chat-message" class="form-control" placeholder="Chattez !" autofocus required>
+            </div>
+            <br>
+            <button id="message" type="submit" class="btn btn-success float-end">
+              <i class="fa fa-paper-plane"></i> Envoyer
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
