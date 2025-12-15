@@ -1,11 +1,3 @@
-##
-# \\Author: Thibault Napoléon "Imothep"
-# \\Company: ISEN Yncréa Ouest
-# \\Email: thibault.napoleon@isen-ouest.yncrea.fr
-# \\Created Date: 23-Jan-2024 - 12:04:19
-# \\Last Modified: 23-Jan-2024 - 14:37:09
-##
-
 #-------------------------------------------------------------------------------
 #--- Create database and add user ----------------------------------------------
 #-------------------------------------------------------------------------------
