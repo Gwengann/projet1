@@ -1,11 +1,3 @@
-/**
- * @Author: Gwengann LE CORVIC
- * @Company: ISEN Yncréa Ouest
- * @Email: gwengann.le-corvic@isen-ouest.yncrea.fr
- * @Created Date: 02-Apr-2024 - 09:14:00
- * @Last Modified: 11-Apr-2024 - 10:00:00
- */
-
 'use strict';
 
 //Création d'un chat
