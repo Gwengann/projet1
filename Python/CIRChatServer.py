@@ -1,11 +1,4 @@
 #!/usr/bin/python3
-###
-# \\Author: Thibault Napoléon "Imothep"
-# \\Company: ISEN Yncréa Ouest
-# \\Email: thibault.napoleon@isen-ouest.yncrea.fr
-# \\Created Date: 14-May-2020 - 15:49:13
-# \\Last Modified: 17-May-2022 - 11:29:14
-###
 
 """CIR chat server using websockets."""
 import asyncio
