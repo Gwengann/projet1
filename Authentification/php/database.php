@@ -1,12 +1,4 @@
 <?php
-/**
- * @Author: Thibault Napoléon <Imothep>
- * @Company: ISEN Yncréa Ouest
- * @Email: thibault.napoleon@isen-ouest.yncrea.fr
- * @Created Date: 22-Jan-2018 - 13:57:23
- * @Last Modified: 13-Dec-2019 - 22:22:14
- */
-
   require_once('constants.php');
 
   //----------------------------------------------------------------------------
