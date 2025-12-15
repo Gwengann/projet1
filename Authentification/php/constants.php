@@ -1,7 +1,7 @@
 <?php
   // Database constants.
-  define('DB_USER', 'comweb_tp');
-  define('DB_PASSWORD', 'pt_bewmoc_isen29');
-  define('DB_NAME', 'comweb_tp');
-  define('DB_SERVER', 'localhost');
+  define('DB_USER', 'toset');
+  define('DB_PASSWORD', 'toset');
+  define('DB_NAME', 'toset');
+  define('DB_SERVER', 'toset');
 ?>
