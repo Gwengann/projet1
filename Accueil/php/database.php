@@ -1,13 +1,4 @@
 <?php
-
-/**
- * @Author: Gwengann LE CORVIC
- * @Company: ISEN Yncréa Ouest
- * @Email: gwengann.le-corvic@isen-ouest.yncrea.fr
- * @Created Date: 07-Feb-2024 - 11:39:00
- * @Last Modified: 13-Mar-2024 - 16:00:00
- */
-
 require_once('constantes.php');
 
 //Connexion à la base de donnée
